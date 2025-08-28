@@ -36,7 +36,7 @@ function fn() {
     // customize
   }
   karate.configure('ssl', {trustAll: true})
-  //karate.configure('connectTimeout', {timeout: 250000})
+  //karate.configure('connectTimeout', {timeout: 250000}) e
 
   return config;
 }
