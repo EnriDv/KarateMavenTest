@@ -7,6 +7,7 @@ Feature: Comment API
     * header Authorization = 'Bearer ' + BearerToken
     * def postId = karate.get('postId')
 
+
   Scenario: Create Comment
     * def commentPayload =
       """

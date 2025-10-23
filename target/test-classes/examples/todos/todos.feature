@@ -32,7 +32,8 @@ Feature: Todo API
       """
     * def todoId = response.id
     * eval karate.set('todoId', response.id)
-
+  
+  @Get
   Scenario: Get Todos
     Given path 'todos'
     When method get
