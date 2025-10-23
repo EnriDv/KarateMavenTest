@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Clonando el repositorio...'
-                git branch: 'main', url: 'https://github.com/test/KarateExampletest.git'
+                git branch: 'main', url: 'https://github.com/EnriDv/KarateMavenTest.git'
             }
         }
 
